@@ -1,0 +1,12 @@
+OLED 128x32 i2c         WIRE            ARDUINO NANO v3
+GND               ->    BLACK      ->   GND
+VCC               ->    RED        ->   5V
+SCL               ->    GREEN      ->   A5
+SDA               ->    YELLOW     ->   A4
+
+ROTARY SWITCH SPI       WIRE            ARDUINO NANO v3
+GND               ->    BLACK      ->   GND
+VCC               ->    RED        ->   5V
+SW                ->    WHITE      ->   D4
+DT                ->    BLUE       ->   D3
+CLK               ->    GREEN      ->   D2
