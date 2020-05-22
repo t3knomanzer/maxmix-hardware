@@ -1,12 +1,19 @@
-OLED 128x32 i2c         WIRE            ARDUINO NANO v3
-GND               ->    BLACK      ->   GND
-VCC               ->    RED        ->   5V
-SCL               ->    GREEN      ->   A5
-SDA               ->    YELLOW     ->   A4
+###################################################
+# Project: MaxMix
+# Author: Ruben Henares
+# Email: rhenares0@gmail.com
+# Date: 5/22/20
+###################################################
 
-ROTARY SWITCH SPI       WIRE            ARDUINO NANO v3
-GND               ->    BLACK      ->   GND
-VCC               ->    RED        ->   5V
-SW                ->    WHITE      ->   D4
-DT                ->    BLUE       ->   D3
-CLK               ->    GREEN      ->   D2
+OLED 128x32 i2c         ARDUINO NANO v3
+GND               ->    GND
+VCC               ->    5V
+SCK               ->    A5
+SDA               ->    A4
+
+ROTARY SWITCH SPI       ARDUINO NANO v3
+GND               ->    GND
+VCC               ->    5V
+SW                ->    A3
+DT                ->    A2
+CLK               ->    A1
