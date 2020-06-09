@@ -1,0 +1,19 @@
+###################################################
+# Project: MaxMix
+# Author: Ruben Henares
+# Email: rhenares0@gmail.com
+# Date: 5/22/20
+###################################################
+
+OLED 128x32 i2c     POS (TOP)       ARDUINO NANO v3
+GND                 1           ->  GND
+VCC                 2           ->  5V
+SCK                 3           ->  A5
+SDA                 4           ->  A4
+
+ROTARY SWITCH SPI       ARDUINO NANO v3
+GND               ->    GND
++                 ->    5V
+SW                ->    A3
+DT                ->    A2
+CLK               ->    A1
