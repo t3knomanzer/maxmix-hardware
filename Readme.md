@@ -16,10 +16,41 @@ You can find out more about the system in the [project website](https://www.maxm
 This repository contains the designs to build the official hardware.
 
 ## Contributing
-Contributions are *very* welcome!
+Most files on this repository are binary and do not allow for changes to be merged.  
+To prevent changes being overwritten, we  use [LFS with locking](https://github.com/git-lfs/git-lfs/wiki/File-Locking).  
 
-Refer to the [CONTRIBUTING.md](https://github.com/t3knomanzer/maxmix-software/blob/master/.github/CONTRIBUTING.md) file for more details about the workflow,
-and general hints on how to prepare your pull request. You can also ask for clarifications or guidance in GitHub issues directly.
+Before you start working on a file, you need to lock it. Locks are exclusive so only one user can lock a file at a time. Locking the file will also make it
+writeable locally and allow you to make changes to it.
+
+Here are a few useful commands:
+
+Lock a file
+```
+$ git lfs lock images/foo.jpg
+Locked images/foo.jpg
+```
+
+Unlock a file
+```
+$ git lfs unlock images/foo.jpg
+$ git lfs unlock --id=456
+```
+
+View locked files
+```
+$ git lfs locks
+images/bar.jpg  jane   ID:123
+images/foo.jpg  alice  ID:456
+```
+
+Typical workflow
+```
+$ git lfs lock images/foo.jpg
+$ git commit images/foo.jpg -m "My changes"
+$ git lfs unlock images/foo.jpg
+$ git push
+```
+
 
 ## Community
 You can join these groups and chats to discuss your-project related questions:
