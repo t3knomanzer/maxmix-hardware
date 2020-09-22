@@ -1,83 +1,83 @@
 # 3D Graphics
-*.f3d              filter=lfs diff=lfs merge=lfs -binary
-*.3mf              filter=lfs diff=lfs merge=lfs -binary
-*.stl              filter=lfs diff=lfs merge=lfs -binary
-*.stp              filter=lfs diff=lfs merge=lfs -binary
-*.gcode            filter=lfs diff=lfs merge=lfs -text
-*.obj              filter=lfs diff=lfs merge=lfs -binary
-*.fbx              filter=lfs diff=lfs merge=lfs -binary
-*.mb               filter=lfs diff=lfs merge=lfs -binary
-*.max              filter=lfs diff=lfs merge=lfs -binary
+*.f3d              filter=lfs diff=lfs merge=lfs -binary lockable
+*.3mf              filter=lfs diff=lfs merge=lfs -binary lockable
+*.stl              filter=lfs diff=lfs merge=lfs -binary lockable
+*.stp              filter=lfs diff=lfs merge=lfs -binary lockable
+*.gcode            filter=lfs diff=lfs merge=lfs -text lockable
+*.obj              filter=lfs diff=lfs merge=lfs -binary lockable
+*.fbx              filter=lfs diff=lfs merge=lfs -binary lockable
+*.mb               filter=lfs diff=lfs merge=lfs -binary lockable
+*.max              filter=lfs diff=lfs merge=lfs -binary lockable
 
 # Graphics
-*.ai              filter=lfs diff=lfs merge=lfs -binary
-*.bmp             filter=lfs diff=lfs merge=lfs -binary
-*.eps             filter=lfs diff=lfs merge=lfs -binary
-*.gif             filter=lfs diff=lfs merge=lfs -binary
-*.gifv            filter=lfs diff=lfs merge=lfs -binary
-*.ico             filter=lfs diff=lfs merge=lfs -binary
-*.jng             filter=lfs diff=lfs merge=lfs -binary
-*.jp2             filter=lfs diff=lfs merge=lfs -binary
-*.jpg             filter=lfs diff=lfs merge=lfs -binary
-*.jpeg            filter=lfs diff=lfs merge=lfs -binary
-*.jpx             filter=lfs diff=lfs merge=lfs -binary
-*.jxr             filter=lfs diff=lfs merge=lfs -binary
-*.pdf             filter=lfs diff=lfs merge=lfs -binary
-*.png             filter=lfs diff=lfs merge=lfs -binary
-*.psb             filter=lfs diff=lfs merge=lfs -binary
-*.psd             filter=lfs diff=lfs merge=lfs -binary
+*.ai              filter=lfs diff=lfs merge=lfs -binary lockable
+*.bmp             filter=lfs diff=lfs merge=lfs -binary lockable
+*.eps             filter=lfs diff=lfs merge=lfs -binary lockable
+*.gif             filter=lfs diff=lfs merge=lfs -binary lockable
+*.gifv            filter=lfs diff=lfs merge=lfs -binary lockable
+*.ico             filter=lfs diff=lfs merge=lfs -binary lockable
+*.jng             filter=lfs diff=lfs merge=lfs -binary lockable
+*.jp2             filter=lfs diff=lfs merge=lfs -binary lockable
+*.jpg             filter=lfs diff=lfs merge=lfs -binary lockable
+*.jpeg            filter=lfs diff=lfs merge=lfs -binary lockable
+*.jpx             filter=lfs diff=lfs merge=lfs -binary lockable
+*.jxr             filter=lfs diff=lfs merge=lfs -binary lockable
+*.pdf             filter=lfs diff=lfs merge=lfs -binary lockable
+*.png             filter=lfs diff=lfs merge=lfs -binary lockable
+*.psb             filter=lfs diff=lfs merge=lfs -binary lockable
+*.psd             filter=lfs diff=lfs merge=lfs -binary lockable
 
-# SVG treated as an asset (filter=lfs diff=lfs merge=lfs -binary) by default.
-*.svg             filter=lfs diff=lfs merge=lfs -text
+# SVG treated as an asset (filter=lfs diff=lfs merge=lfs -binary lockable) by default.
+*.svg             filter=lfs diff=lfs merge=lfs -text lockable
 
-*.svgz            filter=lfs diff=lfs merge=lfs -binary
-*.tif             filter=lfs diff=lfs merge=lfs -binary
-*.tiff            filter=lfs diff=lfs merge=lfs -binary
-*.wbmp            filter=lfs diff=lfs merge=lfs -binary
-*.webp            filter=lfs diff=lfs merge=lfs -binary
+*.svgz            filter=lfs diff=lfs merge=lfs -binary lockable
+*.tif             filter=lfs diff=lfs merge=lfs -binary lockable
+*.tiff            filter=lfs diff=lfs merge=lfs -binary lockable
+*.wbmp            filter=lfs diff=lfs merge=lfs -binary lockable
+*.webp            filter=lfs diff=lfs merge=lfs -binary lockable
 
 # Audio
-*.kar             filter=lfs diff=lfs merge=lfs -binary
-*.m4a             filter=lfs diff=lfs merge=lfs -binary
-*.mid             filter=lfs diff=lfs merge=lfs -binary
-*.midi            filter=lfs diff=lfs merge=lfs -binary
-*.mp3             filter=lfs diff=lfs merge=lfs -binary
-*.ogg             filter=lfs diff=lfs merge=lfs -binary
-*.ra              filter=lfs diff=lfs merge=lfs -binary
-*.wav             filter=lfs diff=lfs merge=lfs -binary
+*.kar             filter=lfs diff=lfs merge=lfs -binary lockable
+*.m4a             filter=lfs diff=lfs merge=lfs -binary lockable
+*.mid             filter=lfs diff=lfs merge=lfs -binary lockable
+*.midi            filter=lfs diff=lfs merge=lfs -binary lockable
+*.mp3             filter=lfs diff=lfs merge=lfs -binary lockable
+*.ogg             filter=lfs diff=lfs merge=lfs -binary lockable
+*.ra              filter=lfs diff=lfs merge=lfs -binary lockable
+*.wav             filter=lfs diff=lfs merge=lfs -binary lockable
 
 # Video
-*.3gpp            filter=lfs diff=lfs merge=lfs -binary
-*.3gp             filter=lfs diff=lfs merge=lfs -binary
-*.as              filter=lfs diff=lfs merge=lfs -binary
-*.asf             filter=lfs diff=lfs merge=lfs -binary
-*.asx             filter=lfs diff=lfs merge=lfs -binary
-*.avi             filter=lfs diff=lfs merge=lfs -binary
-*.fla             filter=lfs diff=lfs merge=lfs -binary
-*.flv             filter=lfs diff=lfs merge=lfs -binary
-*.m4v             filter=lfs diff=lfs merge=lfs -binary
-*.mng             filter=lfs diff=lfs merge=lfs -binary
-*.mov             filter=lfs diff=lfs merge=lfs -binary
-*.mp4             filter=lfs diff=lfs merge=lfs -binary
-*.mpeg            filter=lfs diff=lfs merge=lfs -binary
-*.mpg             filter=lfs diff=lfs merge=lfs -binary
-*.ogv             filter=lfs diff=lfs merge=lfs -binary
-*.swc             filter=lfs diff=lfs merge=lfs -binary
-*.swf             filter=lfs diff=lfs merge=lfs -binary
-*.webm            filter=lfs diff=lfs merge=lfs -binary
+*.3gpp            filter=lfs diff=lfs merge=lfs -binary lockable
+*.3gp             filter=lfs diff=lfs merge=lfs -binary lockable
+*.as              filter=lfs diff=lfs merge=lfs -binary lockable
+*.asf             filter=lfs diff=lfs merge=lfs -binary lockable
+*.asx             filter=lfs diff=lfs merge=lfs -binary lockable
+*.avi             filter=lfs diff=lfs merge=lfs -binary lockable
+*.fla             filter=lfs diff=lfs merge=lfs -binary lockable
+*.flv             filter=lfs diff=lfs merge=lfs -binary lockable
+*.m4v             filter=lfs diff=lfs merge=lfs -binary lockable
+*.mng             filter=lfs diff=lfs merge=lfs -binary lockable
+*.mov             filter=lfs diff=lfs merge=lfs -binary lockable
+*.mp4             filter=lfs diff=lfs merge=lfs -binary lockable
+*.mpeg            filter=lfs diff=lfs merge=lfs -binary lockable
+*.mpg             filter=lfs diff=lfs merge=lfs -binary lockable
+*.ogv             filter=lfs diff=lfs merge=lfs -binary lockable
+*.swc             filter=lfs diff=lfs merge=lfs -binary lockable
+*.swf             filter=lfs diff=lfs merge=lfs -binary lockable
+*.webm            filter=lfs diff=lfs merge=lfs -binary lockable
 
 # Archives
-*.7z              filter=lfs diff=lfs merge=lfs -binary
-*.gz              filter=lfs diff=lfs merge=lfs -binary
-*.jar             filter=lfs diff=lfs merge=lfs -binary
-*.rar             filter=lfs diff=lfs merge=lfs -binary
-*.tar             filter=lfs diff=lfs merge=lfs -binary
-*.zip             filter=lfs diff=lfs merge=lfs -binary
+*.7z              filter=lfs diff=lfs merge=lfs -binary lockable
+*.gz              filter=lfs diff=lfs merge=lfs -binary lockable
+*.jar             filter=lfs diff=lfs merge=lfs -binary lockable
+*.rar             filter=lfs diff=lfs merge=lfs -binary lockable
+*.tar             filter=lfs diff=lfs merge=lfs -binary lockable
+*.zip             filter=lfs diff=lfs merge=lfs -binary lockable
 
 # Fonts
-*.ttf             filter=lfs diff=lfs merge=lfs -binary
-*.eot             filter=lfs diff=lfs merge=lfs -binary
-*.otf             filter=lfs diff=lfs merge=lfs -binary
-*.woff            filter=lfs diff=lfs merge=lfs -binary
-*.woff2           filter=lfs diff=lfs merge=lfs -binary
+*.ttf             filter=lfs diff=lfs merge=lfs -binary lockable
+*.eot             filter=lfs diff=lfs merge=lfs -binary lockable
+*.otf             filter=lfs diff=lfs merge=lfs -binary lockable
+*.woff            filter=lfs diff=lfs merge=lfs -binary lockable
+*.woff2           filter=lfs diff=lfs merge=lfs -binary lockable
 
