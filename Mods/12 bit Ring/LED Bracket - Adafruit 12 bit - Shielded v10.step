@@ -11,8 +11,8 @@ FILE_DESCRIPTION(
 FILE_NAME(
 /* name */ 
 'C:/Users/benne/Documents/GitHub/maxmix-hardware/Mods/12 bit Ring/LED 
-Bracket - Adafruit 12 bit - Shielded v9.step',
-/* time_stamp */ '2020-09-30T22:18:50-04:00',
+Bracket - Adafruit 12 bit - Shielded v10.step',
+/* time_stamp */ '2020-09-30T22:31:38-04:00',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v18.1',
@@ -182,7 +182,7 @@ DATA;
 #165=VECTOR('',#696,10.);
 #166=VECTOR('',#697,10.);
 #167=VECTOR('',#714,3.5);
-#168=VECTOR('',#721,10.);
+#168=VECTOR('',#721,9.125);
 #169=VECTOR('',#730,21.75);
 #170=VECTOR('',#735,22.95);
 #171=CIRCLE('',#524,2.);
@@ -216,8 +216,8 @@ DATA;
 #199=CIRCLE('',#567,6.675);
 #200=CIRCLE('',#569,3.5);
 #201=CIRCLE('',#571,3.5);
-#202=CIRCLE('',#573,10.);
-#203=CIRCLE('',#574,10.);
+#202=CIRCLE('',#573,9.125);
+#203=CIRCLE('',#574,9.125);
 #204=CIRCLE('',#577,21.75);
 #205=CIRCLE('',#579,22.95);
 #206=CIRCLE('',#580,22.95);
@@ -495,7 +495,7 @@ DATA;
 #478=CYLINDRICAL_SURFACE('',#555,18.542);
 #479=CYLINDRICAL_SURFACE('',#563,6.675);
 #480=CYLINDRICAL_SURFACE('',#570,3.5);
-#481=CYLINDRICAL_SURFACE('',#572,10.);
+#481=CYLINDRICAL_SURFACE('',#572,9.125);
 #482=CYLINDRICAL_SURFACE('',#576,21.75);
 #483=CYLINDRICAL_SURFACE('',#578,22.95);
 #484=ADVANCED_FACE('',(#38),#471,.F.);
@@ -891,10 +891,10 @@ POSITIVE_RATIO_MEASURE(7850.),#513);
 #868=CARTESIAN_POINT('',(-3.5,-4.28626379701574E-16,0.));
 #869=CARTESIAN_POINT('Origin',(0.,0.,0.));
 #870=CARTESIAN_POINT('Origin',(0.,0.,0.));
-#871=CARTESIAN_POINT('',(-10.,-1.22464679914735E-15,3.5));
+#871=CARTESIAN_POINT('',(-9.125,-1.11749020422196E-15,3.5));
 #872=CARTESIAN_POINT('Origin',(0.,0.,3.5));
-#873=CARTESIAN_POINT('',(-10.,-1.22464679914735E-15,1.));
-#874=CARTESIAN_POINT('',(-10.,-1.22464679914735E-15,0.));
+#873=CARTESIAN_POINT('',(-9.125,-1.11749020422196E-15,1.));
+#874=CARTESIAN_POINT('',(-9.125,-1.11749020422196E-15,0.));
 #875=CARTESIAN_POINT('Origin',(0.,0.,1.));
 #876=CARTESIAN_POINT('Origin',(0.,0.,3.5));
 #877=CARTESIAN_POINT('Origin',(0.,0.,0.));
@@ -955,18 +955,18 @@ SOLID_ANGLE_UNIT()
 #900=SHAPE_REPRESENTATION('',(#522),#892);
 #901=PRODUCT_DEFINITION_CONTEXT('part definition',#906,'design');
 #902=PRODUCT_DEFINITION('LED Bracket - Adafruit 12 bit - Shielded',
-'LED Bracket - Adafruit 12 bit - Shielded v9',#903,#901);
+'LED Bracket - Adafruit 12 bit - Shielded v10',#903,#901);
 #903=PRODUCT_DEFINITION_FORMATION('',$,#908);
 #904=PRODUCT_RELATED_PRODUCT_CATEGORY(
-'LED Bracket - Adafruit 12 bit - Shielded v9',
-'LED Bracket - Adafruit 12 bit - Shielded v9',(#908));
+'LED Bracket - Adafruit 12 bit - Shielded v10',
+'LED Bracket - Adafruit 12 bit - Shielded v10',(#908));
 #905=APPLICATION_PROTOCOL_DEFINITION('international standard',
 'automotive_design',2009,#906);
 #906=APPLICATION_CONTEXT(
 'Core Data for Automotive Mechanical Design Process');
 #907=PRODUCT_CONTEXT('part definition',#906,'mechanical');
 #908=PRODUCT('LED Bracket - Adafruit 12 bit - Shielded',
-'LED Bracket - Adafruit 12 bit - Shielded v9',$,(#907));
+'LED Bracket - Adafruit 12 bit - Shielded v10',$,(#907));
 #909=PRESENTATION_STYLE_ASSIGNMENT((#910));
 #910=SURFACE_STYLE_USAGE(.BOTH.,#911);
 #911=SURFACE_SIDE_STYLE('',(#912));
