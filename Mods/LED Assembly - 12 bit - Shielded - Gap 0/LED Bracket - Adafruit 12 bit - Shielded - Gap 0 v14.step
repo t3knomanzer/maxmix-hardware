@@ -11,8 +11,8 @@ FILE_DESCRIPTION(
 FILE_NAME(
 /* name */ 
 'C:/Users/benne/Documents/GitHub/maxmix-hardware/Beta/R99/LED Bracket 
-- Adafruit 12 bit - Shielded Cells - Gap 0 v13.step',
-/* time_stamp */ '2020-10-09T22:17:50-04:00',
+- Adafruit 12 bit - Shielded - Gap 0 v14.step',
+/* time_stamp */ '2020-10-09T23:17:58-04:00',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v18.1',
@@ -1029,16 +1029,16 @@ POSITIVE_RATIO_MEASURE(7850.),#593);
 #1003=CARTESIAN_POINT('Origin',(0.,0.,1.));
 #1004=CARTESIAN_POINT('Origin',(0.,0.,3.5));
 #1005=CARTESIAN_POINT('Origin',(0.,0.,0.));
-#1006=CARTESIAN_POINT('',(-21.75,-2.66360678814549E-15,5.2));
-#1007=CARTESIAN_POINT('Origin',(0.,0.,5.2));
+#1006=CARTESIAN_POINT('',(-21.75,-2.66360678814549E-15,5.4));
+#1007=CARTESIAN_POINT('Origin',(0.,0.,5.4));
 #1008=CARTESIAN_POINT('',(-21.75,-2.66360678814549E-15,0.));
 #1009=CARTESIAN_POINT('Origin',(0.,0.,0.));
-#1010=CARTESIAN_POINT('',(-22.95,-2.81056440404318E-15,5.2));
-#1011=CARTESIAN_POINT('Origin',(0.,0.,5.2));
+#1010=CARTESIAN_POINT('',(-22.95,-2.81056440404318E-15,5.4));
+#1011=CARTESIAN_POINT('Origin',(0.,0.,5.4));
 #1012=CARTESIAN_POINT('',(-22.95,-2.81056440404318E-15,0.));
 #1013=CARTESIAN_POINT('',(-22.95,-2.81056440404318E-15,0.));
 #1014=CARTESIAN_POINT('Origin',(0.,0.,0.));
-#1015=CARTESIAN_POINT('Origin',(0.,0.,5.2));
+#1015=CARTESIAN_POINT('Origin',(0.,0.,5.4));
 #1016=CARTESIAN_POINT('Origin',(0.,0.,1.));
 #1017=CARTESIAN_POINT('Origin',(0.,0.,0.));
 #1018=UNCERTAINTY_MEASURE_WITH_UNIT(LENGTH_MEASURE(0.01),#1022,
@@ -1086,19 +1086,19 @@ SOLID_ANGLE_UNIT()
 #1028=SHAPE_REPRESENTATION('',(#602),#1020);
 #1029=PRODUCT_DEFINITION_CONTEXT('part definition',#1034,'design');
 #1030=PRODUCT_DEFINITION(
-'LED Bracket - Adafruit 12 bit - Shielded Cells - Gap 0',
-'LED Bracket - Adafruit 12 bit - Shielded Cells - Gap 0 v13',#1031,#1029);
+'LED Bracket - Adafruit 12 bit - Shielded - Gap 0',
+'LED Bracket - Adafruit 12 bit - Shielded - Gap 0 v14',#1031,#1029);
 #1031=PRODUCT_DEFINITION_FORMATION('',$,#1036);
 #1032=PRODUCT_RELATED_PRODUCT_CATEGORY(
-'LED Bracket - Adafruit 12 bit - Shielded Cells - Gap 0 v13',
-'LED Bracket - Adafruit 12 bit - Shielded Cells - Gap 0 v13',(#1036));
+'LED Bracket - Adafruit 12 bit - Shielded - Gap 0 v14',
+'LED Bracket - Adafruit 12 bit - Shielded - Gap 0 v14',(#1036));
 #1033=APPLICATION_PROTOCOL_DEFINITION('international standard',
 'automotive_design',2009,#1034);
 #1034=APPLICATION_CONTEXT(
 'Core Data for Automotive Mechanical Design Process');
 #1035=PRODUCT_CONTEXT('part definition',#1034,'mechanical');
-#1036=PRODUCT('LED Bracket - Adafruit 12 bit - Shielded Cells - Gap 0',
-'LED Bracket - Adafruit 12 bit - Shielded Cells - Gap 0 v13',$,(#1035));
+#1036=PRODUCT('LED Bracket - Adafruit 12 bit - Shielded - Gap 0',
+'LED Bracket - Adafruit 12 bit - Shielded - Gap 0 v14',$,(#1035));
 #1037=PRESENTATION_STYLE_ASSIGNMENT((#1038));
 #1038=SURFACE_STYLE_USAGE(.BOTH.,#1039);
 #1039=SURFACE_SIDE_STYLE('',(#1040));
