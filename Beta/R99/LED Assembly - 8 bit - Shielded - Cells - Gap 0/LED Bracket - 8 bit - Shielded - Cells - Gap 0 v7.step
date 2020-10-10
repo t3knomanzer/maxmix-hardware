@@ -11,8 +11,8 @@ FILE_DESCRIPTION(
 FILE_NAME(
 /* name */ 
 'C:/Users/benne/Documents/GitHub/maxmix-hardware/Beta/R99/LED Bracket 
-- 8 bit - Shielded - Cells - Gap 0 v6.step',
-/* time_stamp */ '2020-10-09T21:59:44-04:00',
+- 8 bit - Shielded - Cells - Gap 0 v7.step',
+/* time_stamp */ '2020-10-09T22:13:31-04:00',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v18.1',
@@ -42,7 +42,7 @@ DATA;
 #26=CYLINDRICAL_SURFACE('',#642,9.05);
 #27=CYLINDRICAL_SURFACE('',#647,16.1);
 #28=CYLINDRICAL_SURFACE('',#652,21.75);
-#29=CYLINDRICAL_SURFACE('',#675,3.5);
+#29=CYLINDRICAL_SURFACE('',#675,3.6);
 #30=CYLINDRICAL_SURFACE('',#676,7.9);
 #31=CYLINDRICAL_SURFACE('',#679,6.75);
 #32=CYLINDRICAL_SURFACE('',#682,22.95);
@@ -64,13 +64,13 @@ DATA;
 #48=CIRCLE('',#653,21.75);
 #49=CIRCLE('',#655,22.95);
 #50=CIRCLE('',#657,22.95);
-#51=CIRCLE('',#658,3.5);
+#51=CIRCLE('',#658,3.6);
 #52=CIRCLE('',#659,6.75);
 #53=CIRCLE('',#660,6.75);
 #54=CIRCLE('',#671,6.75);
 #55=CIRCLE('',#672,6.75);
 #56=CIRCLE('',#673,6.75);
-#57=CIRCLE('',#674,3.5);
+#57=CIRCLE('',#674,3.6);
 #58=CIRCLE('',#677,7.9);
 #59=CIRCLE('',#678,7.9);
 #60=CIRCLE('',#680,6.75);
@@ -271,7 +271,7 @@ DATA;
 #249=VECTOR('',#825,10.);
 #250=VECTOR('',#826,10.);
 #251=VECTOR('',#827,10.);
-#252=VECTOR('',#840,3.5);
+#252=VECTOR('',#840,3.6);
 #253=VECTOR('',#845,7.9);
 #254=VERTEX_POINT('',#860);
 #255=VERTEX_POINT('',#861);
@@ -1001,7 +1001,7 @@ POSITIVE_RATIO_MEASURE(7850.),#617);
 #971=CARTESIAN_POINT('Origin',(0.,0.,5.2));
 #972=CARTESIAN_POINT('Origin',(0.,0.,0.));
 #973=CARTESIAN_POINT('Origin',(0.,0.,0.));
-#974=CARTESIAN_POINT('',(-3.5,-4.28626379701574E-16,0.));
+#974=CARTESIAN_POINT('',(-3.6,-4.40872847693047E-16,0.));
 #975=CARTESIAN_POINT('Origin',(0.,0.,0.));
 #976=CARTESIAN_POINT('',(-0.95,-4.75,0.));
 #977=CARTESIAN_POINT('',(-0.95,-6.68281377864145,0.));
@@ -1072,10 +1072,10 @@ POSITIVE_RATIO_MEASURE(7850.),#617);
 #1042=CARTESIAN_POINT('Origin',(0.,0.,1.));
 #1043=CARTESIAN_POINT('Origin',(0.,0.,1.));
 #1044=CARTESIAN_POINT('Origin',(0.,0.,1.));
-#1045=CARTESIAN_POINT('',(-3.5,-4.28626379701574E-16,1.));
+#1045=CARTESIAN_POINT('',(-3.6,-4.40872847693047E-16,1.));
 #1046=CARTESIAN_POINT('Origin',(0.,0.,1.));
 #1047=CARTESIAN_POINT('Origin',(0.,0.,0.));
-#1048=CARTESIAN_POINT('',(-3.5,-4.28626379701574E-16,0.));
+#1048=CARTESIAN_POINT('',(-3.6,-4.40872847693047E-16,0.));
 #1049=CARTESIAN_POINT('Origin',(0.,0.,0.));
 #1050=CARTESIAN_POINT('',(-7.9,-9.67470971326409E-16,2.7));
 #1051=CARTESIAN_POINT('Origin',(0.,0.,2.7));
@@ -1133,18 +1133,18 @@ SOLID_ANGLE_UNIT()
 #1071=PRODUCT_DEFINITION_CONTEXT('part definition',#1076,'design');
 #1072=PRODUCT_DEFINITION(
 'LED Bracket - 8 bit - Shielded - Cells - Gap 0',
-'LED Bracket - 8 bit - Shielded - Cells - Gap 0 v6',#1073,#1071);
+'LED Bracket - 8 bit - Shielded - Cells - Gap 0 v7',#1073,#1071);
 #1073=PRODUCT_DEFINITION_FORMATION('',$,#1078);
 #1074=PRODUCT_RELATED_PRODUCT_CATEGORY(
-'LED Bracket - 8 bit - Shielded - Cells - Gap 0 v6',
-'LED Bracket - 8 bit - Shielded - Cells - Gap 0 v6',(#1078));
+'LED Bracket - 8 bit - Shielded - Cells - Gap 0 v7',
+'LED Bracket - 8 bit - Shielded - Cells - Gap 0 v7',(#1078));
 #1075=APPLICATION_PROTOCOL_DEFINITION('international standard',
 'automotive_design',2009,#1076);
 #1076=APPLICATION_CONTEXT(
 'Core Data for Automotive Mechanical Design Process');
 #1077=PRODUCT_CONTEXT('part definition',#1076,'mechanical');
 #1078=PRODUCT('LED Bracket - 8 bit - Shielded - Cells - Gap 0',
-'LED Bracket - 8 bit - Shielded - Cells - Gap 0 v6',$,(#1077));
+'LED Bracket - 8 bit - Shielded - Cells - Gap 0 v7',$,(#1077));
 #1079=PRESENTATION_STYLE_ASSIGNMENT((#1080));
 #1080=SURFACE_STYLE_USAGE(.BOTH.,#1081);
 #1081=SURFACE_SIDE_STYLE('',(#1082));
